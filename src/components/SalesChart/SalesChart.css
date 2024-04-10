@@ -1,0 +1,60 @@
+.SalesChart {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.custom-tooltip {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-tooltip .label {
+	font-size: 14px;
+	color: #333;
+}
+.sales-chart-header {
+	font-size: 1.2em;
+	color: #333;
+	margin-left: 20px;
+}
+
+.recharts-responsive-container {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Styling for the lines */
+.recharts-line .recharts-curve {
+	stroke-width: 2px;
+}
+
+/* Remove the dots from the lines */
+.recharts-line .recharts-dot {
+	display: none;
+}
+
+/* Hide the Y-axis tick labels */
+.recharts-y-axis .recharts-cartesian-axis-tick {
+	display: none;
+}
+
+/* Adjust X-axis tick labels to show months */
+.recharts-x-axis .recharts-cartesian-axis-tick {
+	font-size: 12px;
+}
+
+/* Hide the grid background */
+.recharts-cartesian-grid {
+	display: none;
+}
+
+/* Chart title */
+.chart-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
